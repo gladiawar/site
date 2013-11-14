@@ -1,0 +1,19 @@
+_index:
+    pattern:  /
+    defaults: { _controller: GladiawarSiteBundle:Index:index }
+
+_gallery:
+    pattern:  /gallery
+    defaults: { _controller: GladiawarSiteBundle:Index:gallery }
+
+_project:
+    pattern:  /project
+    defaults: { _controller: GladiawarSiteBundle:Index:project }
+
+_team:
+    pattern:  /team
+    defaults: { _controller: GladiawarSiteBundle:Index:team }
+
+_contact:
+    pattern:  /contact
+    defaults: { _controller: GladiawarSiteBundle:Index:contact }

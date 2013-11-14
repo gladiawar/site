@@ -1,0 +1,27 @@
+{% extends 'GladiawarSiteBundle::template.html.twig' %}
+
+{% block header %}
+<div id="header" class="container">
+	<div id="logo">
+		<h1><a href="#">{{ 'Gladiawar : Arena' | trans }}</a></h1>
+		<p>{{ 'Blood, Honor and Pixel' | trans }}</a></p>
+	</div>
+	<div id="banner"> <a href="#" class="image"><img src="{{ asset('bundles/gladiawarsite/images/pic01.jpg') }}" alt="" /></a> </div>
+</div>
+<div id="welcome" class="container">
+	<div class="title">
+		<h2>{{ 'Gladiawar : Arena' | trans }}</h2>
+		<span class="byline">{{ 'Blood, Honor and Pixel' | trans }}</span> </div>
+		<p>{% trans %}GladiaWarArena is a third person game. The player incarne a gladiator and has to fight with others players. There is 3 gladiator types : light, medium and heavy. By winning games, each player can improve his stuff. Available on PC (Windows and Linux){% endtrans %}</p>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="title">
+	<h2>Tilte</h2>
+	<span class="byline">subtitle</span>
+</div>
+<span class="image image-full"><img src="{{ asset('bundles/gladiawarsite/images/pic01.jpg') }}" alt="" /></span>
+<p>content 1</p>
+<p>content 2</p>
+{% endblock %}

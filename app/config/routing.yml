@@ -1,0 +1,2 @@
+_gladiawar_site:
+    resource: "@GladiawarSiteBundle/Resources/config/routing.yml"
