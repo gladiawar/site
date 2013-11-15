@@ -15,10 +15,10 @@
 	<div id="menu" class="container">
 		<ul>
 			<li{% if true %} class="current_page_item"{% endif %}><a href="{{ path('_index') }}">{{ 'Homepage' | trans }}</a></li>
-			<li{% if false %} class="current_page_item"{% endif %}><a href="{{ path('_gallery') }}">{{ 'Gallery' | trans }}</a></li>
-			<li{% if false %} class="current_page_item"{% endif %}><a href="{{ path('_project') }}">{{ 'Project' | trans }}</a></li>
-			<li{% if false %} class="current_page_item"{% endif %}><a href="{{ path('_team') }}">{{ 'Team' | trans }}</a></li>
-			<li{% if false %} class="current_page_item"{% endif %}><a href="{{ path('_contact') }}">{{ 'Contact' | trans }}</a></li>
+			<li{% if false %} class="current_page_item"{% endif %}><a href="#{{ path('_gallery') and false }}">{{ 'Gallery' | trans }}</a></li>
+			<li{% if false %} class="current_page_item"{% endif %}><a href="#{{ path('_project') and false }}">{{ 'Project' | trans }}</a></li>
+			<li{% if false %} class="current_page_item"{% endif %}><a href="#{{ path('_team') and false }}">{{ 'Team' | trans }}</a></li>
+			<li{% if false %} class="current_page_item"{% endif %}><a href="#{{ path('_contact') and false }}">{{ 'Contact' | trans }}</a></li>
 		</ul>
 	</div>
 	<!-- end #menu -->
